@@ -6,7 +6,6 @@ Today's objectives will be the following
 - Deriving the grid equation for homework  
 
 
-
 ## Downloading Anaconda/Spyder
 **WINDOWS**
 Follow this link to download anaconda:
@@ -81,7 +80,8 @@ git commit -m "put some comment here"
 git push -u origin main 
 ```
 
-### Go back to previous commit 
+### Go back to previous commit
+https://stackoverflow.com/questions/1895059/revert-to-a-commit-by-a-sha-hash-in-git/15563149#15563149 
 ```
 # Create a backup of master branch
 git branch backup_master
@@ -100,8 +100,8 @@ git commit -a -m "Revert to 56e05fce"
 
 # Delete unused branch
 git branch -d backup_master
-
 ```
+
 
 
 
