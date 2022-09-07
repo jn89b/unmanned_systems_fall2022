@@ -1,10 +1,10 @@
 # Objectives 
 In lab today we will go over the following:
+- Working with Visual Studio Code 
 - Creating utility functions to import code 
 - Why Classes? 
 - Go over A* 
 - Go over any questions on homework and help 
-
 
 # Resources 
 - Astar : https://www.youtube.com/watch?v=ySN5Wnu88nE&ab_channel=Computerphile

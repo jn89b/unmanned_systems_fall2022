@@ -1,1 +1,3 @@
-print("hello world")
+class Djikstras():
+    def __init__(self) -> None:
+        pass
