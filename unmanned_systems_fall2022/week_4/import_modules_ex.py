@@ -46,10 +46,10 @@ if __name__ == '__main__':
     
     path = djikstras.find_path()
 
-    astar = PathFinding.Astar(start_position, goal_position, move_list,
-                                      configSpace, obstacle_radius)
+    # astar = PathFinding.Astar(start_position, goal_position, move_list,
+    #                                   configSpace, obstacle_radius)
     
-    astar_path = astar.find_path()
+    # astar_path = astar.find_path()
     
     hello.hello_world("Justin")
     
