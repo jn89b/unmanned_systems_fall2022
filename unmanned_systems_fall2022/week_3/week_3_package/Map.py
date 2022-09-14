@@ -1,6 +1,6 @@
 import numpy as np
 import math as m
-from util_functions import util_functions
+from week_3_package import util_functions
 
 class ConfigSpace():
     """

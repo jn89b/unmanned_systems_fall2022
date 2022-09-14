@@ -1,4 +1,5 @@
-from week_3_package import Map, util_functions, PathFinding
+from week_4_package import Map, util_functions, PathFinding
+from another_package import hello
 import matplotlib.pyplot as plt
 
 def plot_path(waypoints:list, configSpace:Map.ConfigSpace) -> plt:
@@ -49,6 +50,8 @@ if __name__ == '__main__':
                                       configSpace, obstacle_radius)
     
     astar_path = astar.find_path()
+    
+    hello.hello_world("Justin")
     
     #%% 
     plt.figure()
