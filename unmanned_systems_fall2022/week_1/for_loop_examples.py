@@ -6,7 +6,6 @@ Created on Wed Aug 24 09:20:42 2022
 """
 
 
-
 #% Import stuff here
 import matplotlib.pyplot as plt
 
