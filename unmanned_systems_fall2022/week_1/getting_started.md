@@ -1,4 +1,4 @@
-# Week 1 Lab 8/23/2022   
+# Week 1 Lab 8/23/2023   
 Today's objectives will be the following
 - Downloading Anaconda/Spyder 
 - Making your github repo for Unmanned Systems 
