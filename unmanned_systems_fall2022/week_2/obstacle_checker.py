@@ -98,7 +98,6 @@ def is_not_valid(obst_list:list,x_min:int, y_min:int, x_max:int, y_max:int,
     return False
     
         
-    
 if __name__=='__main__':
     
     obstacle_positions =  [(1,1), (4,4), (3,4), (5,0)]
