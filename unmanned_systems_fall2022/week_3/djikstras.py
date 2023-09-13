@@ -141,19 +141,16 @@ for obs_pos in obstacle_positions:
 unvisited = {}
 visited = {}
 
-
 # - Initialize current_node with the following parameters:
-    # - position = start position
-    # - cost = 0
-    # - parent_index = -1
+# - position = start position
+# - cost = 0
+# - parent_index = -1
 current_node = Node(start_x, start_y, 0, int(-1))
-
 
 # - initialize current_index by utilizing compute_index() function 
 # based on the current position, which is the start 
 current_idx = int(compute_index(min_x, max_x, min_y, max_y,
                 gs, start_x, start_y))
-
 
 # - insert current_node into unvisited dictionary, 
 # use the current_index as the key
@@ -221,7 +218,8 @@ while [current_node.x, current_node.y] != [goal_x, goal_y]:
         
         # calculate the filtered/new cost
         # from + to new_node
-        new_cost = current_node.cost + m.dist(move, [current_node.x, current_node.y])
+        new_cost = current_node.cost + m.dist(move, [current_node.x, current_node.y]) \
+            + m.dist(move, [goal_x, goal_y])
 
         #check if new index is in visited
         if new_index in visited:

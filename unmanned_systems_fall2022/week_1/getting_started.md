@@ -1,4 +1,4 @@
-# Week 1 Lab 8/23/2023   
+# Week 1 Lab 8/23/2022   
 Today's objectives will be the following
 - Downloading Anaconda/Spyder 
 - Making your github repo for Unmanned Systems 
@@ -10,6 +10,9 @@ Today's objectives will be the following
 **WINDOWS**
 Follow this link to download anaconda:
 https://www.anaconda.com/products/distribution
+
+I also encourage you to download Windows Terminal
+https://docs.microsoft.com/en-us/windows/terminal/install 
 
 **Linux**
 DO NOT DOWNLOAD Anaconda in Linux, since we will be downloading ROS in this enviornment, if you have these two together python packages become a nightmare to organize 
