@@ -33,6 +33,10 @@ class Obstacle():
         
         return True
 
+
+
+# We are going to refactor into a class
+
 def compute_index(min_x:int, max_x:int, min_y:int, max_y:int,
                  gs:float, curr_x:int, curr_y:int) -> float:
 
@@ -111,7 +115,7 @@ def is_not_valid(obst_list:list,
 
     return False
     
-
+### DONT ADD THIS 
 # initialize some parameters
 start_x = 0
 start_y = 0
@@ -136,7 +140,7 @@ for obs_pos in obstacle_positions:
     obstacle = Obstacle(obs_pos[0], obs_pos[1], obstacle_radius)
     obstacle_list.append(obstacle)
 
-
+### MAIN METHOD OF ASTAR/DJIKSTRAS 
 # - Make two bins/dictionaries:
 unvisited = {}
 visited = {}
