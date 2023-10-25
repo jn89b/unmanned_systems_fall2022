@@ -10,5 +10,5 @@ for loop to go through each permuation:
 
 min_index = find_min_index(cost_list)
 best_solution = list(permuations[min_index])
-
 ```
+
